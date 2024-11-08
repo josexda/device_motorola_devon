@@ -22,3 +22,6 @@ persist.vendor.nfc.st.multisim_fw_config=true
 
 # Radio
 ro.vendor.radio.imei.sv=17
+
+# Multi-gen LRU
+persist.device_config.mglru_native.lru_gen_config=all
