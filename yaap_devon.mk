@@ -12,6 +12,7 @@ $(call inherit-product, device/motorola/devon/device.mk)
 
 # Inherit some common Yaap stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+TARGET_BUILD_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := yaap_devon
